@@ -1,0 +1,314 @@
+{
+	"info": {
+		"_postman_id": "4a83019e-4a76-4fdd-a0df-731ab25656cc",
+		"name": "Bamboo tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ABC build plan",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "your_password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "your_username",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bamboo-master.server.com/rest/api/latest/plan/ABC-ABC329.json",
+					"protocol": "https",
+					"host": [
+						"bamboo-master",
+						"server",
+						"com"
+					],
+					"path": [
+						"rest",
+						"api",
+						"latest",
+						"plan",
+						"ABC-ABC329.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ABC deploy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "your_password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "your_username",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bamboo-master.server.com/rest/api/latest/deploy/project/12345678",
+					"protocol": "https",
+					"host": [
+						"bamboo-master",
+						"server",
+						"com"
+					],
+					"path": [
+						"rest",
+						"api",
+						"latest",
+						"deploy",
+						"project",
+						"12345678"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ABC deploy env",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "your_password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "your_username",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bamboo-master.server.com/rest/api/latest/deploy/environment/10111213/results",
+					"protocol": "https",
+					"host": [
+						"bamboo-master",
+						"server",
+						"com"
+					],
+					"path": [
+						"rest",
+						"api",
+						"latest",
+						"deploy",
+						"environment",
+						"10111213",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ABC build plan branches",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "your_password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "your_username",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bamboo-master.server.com/rest/api/latest/plan/ABC-ABC.json",
+					"protocol": "https",
+					"host": [
+						"bamboo-master",
+						"server",
+						"com"
+					],
+					"path": [
+						"rest",
+						"api",
+						"latest",
+						"plan",
+						"ABC-ABC.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ABC build result",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "your_password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "your_username",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bamboo-master.server.com/rest/api/latest/result/ABC-ABC/latest.json",
+					"protocol": "https",
+					"host": [
+						"bamboo-master",
+						"server",
+						"com"
+					],
+					"path": [
+						"rest",
+						"api",
+						"latest",
+						"result",
+						"ABC-ABC",
+						"latest.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ABC project plans",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "your_password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "your_username",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"value": true,
+							"type": "boolean"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bamboo-master.server.com/rest/api/latest/project/ABC.json?expand=plans",
+					"protocol": "https",
+					"host": [
+						"bamboo-master",
+						"server",
+						"com"
+					],
+					"path": [
+						"rest",
+						"api",
+						"latest",
+						"project",
+						"ABC.json"
+					],
+					"query": [
+						{
+							"key": "expand",
+							"value": "plans"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
