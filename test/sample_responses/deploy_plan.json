@@ -1,0 +1,35 @@
+{
+    "key": {
+        "key": "97648645"
+    },
+    "name": "Deployment for Reservation Service",
+    "planKey": {
+        "key": "RES-RES"
+    },
+    "environments": [
+        {
+            "id": 108298249,
+            "key": {
+                "key": "97648645-108298249"
+            },
+            "name": "Stage",
+            "deploymentProjectId": 97648645
+        },
+        {
+            "id": 108298251,
+            "key": {
+                "key": "97648645-108298251"
+            },
+            "name": "Production",
+            "deploymentProjectId": 97648645
+        },
+        {
+            "id": 116162561,
+            "key": {
+                "key": "97648645-116162561"
+            },
+            "name": "ABC",
+            "deploymentProjectId": 97648645
+        }
+    ]
+}

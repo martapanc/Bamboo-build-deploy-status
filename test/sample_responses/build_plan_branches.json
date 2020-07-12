@@ -1,0 +1,47 @@
+{
+    "link": {
+        "href": "https://bamboo-master.server.com/rest/api/latest/plan/RES-RES/branch",
+        "rel": "self"
+    },
+    "branches": {
+        "size": 1,
+        "branch": [
+            {
+                "shortName": "develop",
+                "shortKey": "RES3",
+                "enabled": true,
+                "link": {
+                    "href": "https://bamboo-master.server.com/rest/api/latest/plan/RES-RES4",
+                    "rel": "self"
+                },
+                "workflowType": "manual",
+                "key": "RES-RES4",
+                "name": "Reservation Service - Reservation Service - develop"
+            },
+            {
+                "shortName": "RS-1234",
+                "shortKey": "RES1",
+                "enabled": true,
+                "link": {
+                    "href": "https://bamboo-master.server.com/rest/api/latest/plan/RES-RES1",
+                    "rel": "self"
+                },
+                "workflowType": "manual",
+                "key": "RES-RES1",
+                "name": "Reservation Service - Reservation Service - RS-1234"
+            },
+            {
+                "shortName": "RS-5678",
+                "shortKey": "RES2",
+                "enabled": true,
+                "link": {
+                    "href": "https://bamboo-master.server.com/rest/api/latest/plan/RES-RES2",
+                    "rel": "self"
+                },
+                "workflowType": "manual",
+                "key": "RES-RES2",
+                "name": "Reservation Service - Reservation Service - RS-5678"
+            }
+        ]
+    }
+}

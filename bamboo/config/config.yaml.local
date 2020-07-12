@@ -1,0 +1,8 @@
+bamboo:
+  credentials:
+    username: your_username
+    password: your_password
+  url: http://bamboo-master.server.com
+#  url: http://127.0.0.1:5000
+  plans: ['PLAN-ABC', 'PLAN1-DEF']
+  deployment_project_id: 97648645

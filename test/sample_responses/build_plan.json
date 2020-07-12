@@ -1,0 +1,19 @@
+{
+    "projectKey": "RES",
+    "projectName": "Reservation Service",
+    "shortName": "develop",
+    "buildName": "develop",
+    "shortKey": "RES4",
+    "enabled": true,
+    "link": {
+        "href": "https://bamboo-master.server.com/rest/api/latest/plan/RES-RES4",
+        "rel": "self"
+    },
+    "isActive": false,
+    "isBuilding": false,
+    "key": "RES-RES4",
+    "name": "Reservation Service - Reservation Service - develop",
+    "planKey": {
+        "key": "RES-RES4"
+    }
+}
