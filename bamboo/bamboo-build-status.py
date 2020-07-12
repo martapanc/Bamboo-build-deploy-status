@@ -5,6 +5,11 @@ from datetime import datetime
 from scripts import utils
 import yaml
 
+
+# TODO: fix readme
+# TODO: improve test endpoints
+# TODO: add metadata
+
 config = yaml.safe_load(open('config/config.yaml'))['bamboo']
 
 DATETIME_FORMAT = '%d %b %Y %H:%M'
